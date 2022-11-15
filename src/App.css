@@ -1,0 +1,18 @@
+.wrapper{
+  background: linear-gradient(rgb(168, 108, 108), rgb(77, 77, 154));
+  color: white;
+  min-height: 150vh;
+}
+
+.title{
+  
+  animation-name: example;
+  animation-duration: 4s;
+}
+
+@keyframes example {
+  0% {color: pink;} 
+  25%  {color: goldenrod;}
+  50%  {color: yellow;}
+  100% {color: white;}
+}
